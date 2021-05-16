@@ -46,3 +46,5 @@ main_ch5
 m5_v2_add
 
 ml102_add_main_ch6
+
+ml102_add_main_ch7_variant
