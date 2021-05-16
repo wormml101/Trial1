@@ -24,3 +24,10 @@ run_name = "1_WormNet_200223_gen45"        ### change
 modelDir = "C:\\Users\\evgeny\\work\\0_new_runs" + "\\" + run_name
 if not os.path.exists(modelDir):
   os.mkdir(modelDir)
+
+
+line1
+line1
+line1
+line1
+line1
