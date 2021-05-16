@@ -34,7 +34,9 @@ model_saved = "{}_WormNet_200223_fullres.json"
 weights_last_saved = "4_weights.06-0.35.hdf5"     ### change
 modelContinueFile = os.path.join(modelDir, model_saved)
 modelContinueWeigthsFile = os.path.join(modelDir, weights_last_saved)
-
+3
 
 main2
 main2_ch3
+
+main_ch4
