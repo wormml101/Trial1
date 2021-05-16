@@ -1,0 +1,26 @@
+from __future__ import print_function
+import numpy as np
+import time
+import os
+from keras.callbacks import TensorBoard, EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
+from keras import losses
+from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
+from keras.models import model_from_json
+from keras import backend as K
+from keras.layers import Input, Flatten, Dense, Dropout, AveragePooling2D # Dropout, Convolution2D, Flatten, MaxPool2D
+from keras.optimizers import Adam, SGD, RMSprop
+from keras.models import Model
+from keras.applications.mobilenet import MobileNet
+from collections import Counter
+from keras import regularizers
+from keras.constraints import max_norm
+from sklearn.utils import class_weight
+from keras.callbacks import CSVLogger
+import pandas as pd 
+import WormNet_200223
+
+####################################################################
+run_name = "1_WormNet_200223_gen45"        ### change
+modelDir = "C:\\Users\\evgeny\\work\\0_new_runs" + "\\" + run_name
+if not os.path.exists(modelDir):
+  os.mkdir(modelDir)
