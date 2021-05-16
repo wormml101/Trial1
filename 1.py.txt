@@ -33,3 +33,5 @@ line1
 line1
 
 var2_ch2
+
+var2_ch3
