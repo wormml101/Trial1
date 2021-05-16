@@ -31,3 +31,5 @@ line1
 line1
 line1
 line1
+
+var2_ch2
